@@ -24,7 +24,7 @@
 	{
 		"name": "Stele",
 		"replaces": "Monument",
-		"uniqueTo": "Ethiopia",
+		"uniqueTo": "Polynesia",
 		"culture": 2,
 		"faith": 2,
 		"cost": 40,
@@ -54,7 +54,7 @@
 	{
 		"name": "Pyramid",
 		"replaces": "Shrine",
-		"uniqueTo": "The Maya",
+		"uniqueTo": "Polynesia",
 		"faith": 2,
 		"science": 2,
 		"cost": 40,
@@ -102,7 +102,7 @@
 	{
 		"name": "Paper Maker",
 		"replaces": "Library",
-		"uniqueTo": "China",
+		"uniqueTo": "Mongolia",
 		"hurryCostModifier": 25,
 		"gold": 2,
 		"uniques": ["[+1 Science] per [2] population [in this city]"],
@@ -137,7 +137,7 @@
 	{
 		"name": "Floating Gardens",
 		"replaces": "Water Mill",
-		"uniqueTo": "Aztecs",
+		"uniqueTo": "Inca",
 		"food": 2,
 		"production": 1,
 		"uniques": ["[+2 Food] from [Lakes] tiles [in this city]", "Must be next to [Fresh water]"],
@@ -194,7 +194,7 @@
 	{
 		"name": "Krepost",
 		"replaces": "Barracks",
-		"uniqueTo": "Russia",
+		"uniqueTo": "Mongolia",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": ["[-25]% Culture cost of natural border growth [in this city]","[-25]% Gold cost of acquiring tiles [in this city]",
@@ -300,7 +300,7 @@
 	{
 		"name": "Burial Tomb",
 		"replaces": "Temple",
-		"uniqueTo": "Egypt",
+		"uniqueTo": "Persia",
 		"maintenance": 0,
 		"uniques": ["Doubles Gold given to enemy if city is captured"],
 		"faith": 2,
@@ -312,7 +312,7 @@
 	{
 		"name": "Mud Pyramid Mosque",
 		"replaces": "Temple",
-		"uniqueTo": "Songhai",
+		"uniqueTo": "Mongolia",
 		"maintenance": 0,
 		"hurryCostModifier": 25,
 		"culture": 2,
@@ -368,7 +368,7 @@
 	{
 		"name": "Bazaar",
 		"replaces": "Market",
-		"uniqueTo": "Arabia",
+		"uniqueTo": "Carthage",
 		"gold": 2,
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
@@ -512,7 +512,7 @@
 	{
 		"name": "Longhouse",
 		"replaces": "Workshop",
-		"uniqueTo": "Iroquois",
+		"uniqueTo": "Byzantium",
 		"cost": 100,
 		"maintenance": 2,
 		"production": 2,
@@ -554,7 +554,7 @@
 	{
 		"name": "Wat",
 		"replaces": "University",
-		"uniqueTo": "Siam",
+		"uniqueTo": "France",
 		"maintenance": 2,
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"science": 33},
@@ -595,7 +595,7 @@
 		"name": "Mughal Fort",
 		"cost": 150,
 		"replaces": "Castle",
-		"uniqueTo": "India",
+		"uniqueTo": "Spain",
 		"cityStrength": 7,
 		"cityHealth": 25,
 		"culture": 2,
@@ -667,7 +667,7 @@
 	{
 		"name": "Ceilidh Hall",
 		"replaces": "Opera House",
-		"uniqueTo": "Celts",
+		"uniqueTo": "France",
 		"culture": 4,
 		"happiness": 3,
 		"specialistSlots": {"Artist": 1},
@@ -806,7 +806,7 @@
 	{
 		"name": "Coffee House",
 		"replaces": "Windmill",
-		"uniqueTo": "Austria",
+		"uniqueTo": "The Netherlands",
 		"production": 2,
 		"percentStatBonus": {"production": 10},
 		"specialistSlots": {"Engineer": 1},
