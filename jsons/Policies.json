@@ -689,6 +689,14 @@
                 "column": 7
             },
             {
+                "name": "Creative Expression",
+                "uniques": [
+                    "[+2 Culture] from every [Great Work]"
+                ],
+                "row": 1,
+                "column": 9
+            },
+            {
                 "name": "Urbanization",
                 "uniques": [
                     "[+2 Production, +2 Science] from every [Windmill]",
