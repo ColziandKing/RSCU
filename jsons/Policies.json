@@ -216,8 +216,8 @@
                     "[+4 Production, +4 Gold, +4 Culture, +4 Happiness] from every [Heroic Epic]",
                     "[50]% XP gained from combat <for [non-[Air]] units>"
                 ],
-                "row": 1,
-                "column": 7
+                "row": 3,
+                "column": 2
             },
             {
                 "name": "Expansion Complete",
@@ -369,15 +369,6 @@
                 "column": 4
             },
             {
-                "name": "Educated Elite",
-                "uniques": [
-                    "Militaristic City-States grant units [3] times as fast when you are at war with a common nation","[-100]% weight to this choice for AI decisions",
-			"Allied City-States will occasionally gift Great People",
-                ],
-                "row": 3,
-                "column": 5
-            },
-            {
                 "name": "Relations Complete",
                 "uniques": [
                     "Comment [Promotes all spies 1 time(s)] <when espionage is enabled>", "Comment [New spies start with 1 level(s)] <when espionage is enabled>", "Promotes all spies [1] time(s) <hidden from users>", "New spies start with [1] level(s) <hidden from users>",
@@ -445,7 +436,7 @@
 			"Provides [3] [Nutmeg]","Provides [3] [Cloves]","Provides [3] [Pepper]"
                 ],
                 "row": 3,
-                "column": 4
+                "column": 2
             },
             {
                 "name": "Commerce Complete",
@@ -604,7 +595,7 @@
                     "Allied City-States provide [Science] equal to [25]% of what they produce for themselves"
 		],
                 "row": 3,
-                "column": 1
+                "column": 5
             },
             {
                 "name": "Rationalism Complete",
@@ -1016,6 +1007,15 @@
                 ],
                 "row": 3,
                 "column": 3
+            },
+            {
+                "name": "Their Finest Hour",
+                "uniques": [
+                    "[+15]% Strength <for [Military] units>",
+                    "Empire enters golden age","Provides [1] [Policies]"
+                ],
+                "row": 3,
+                "column": 5
             },
             {
                 "name": "Diplomatic Missions",
