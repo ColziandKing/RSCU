@@ -691,7 +691,8 @@
             {
                 "name": "Creative Expression",
                 "uniques": [
-                    "[+2 Culture] from every [Great Work]"
+                    "[+2 Culture] from every [Dye]",
+                    "[-50]% Unhappiness from [Specialists] [in all cities]","[+100]% Yield from every [Great Improvement]"
                 ],
                 "row": 1,
                 "column": 9
@@ -944,7 +945,7 @@
         ]
     },
     {
-        "name": "International",
+        "name": "Internationalism",
         "era": "Industrial era",
         "priorities": {
             "Neutral": 50,
@@ -1009,7 +1010,7 @@
                 "column": 3
             },
             {
-                "name": "International Complete",
+                "name": "Internationalism Complete",
                 "uniques": [
 		     "[+100]% Golden Age length",
                     "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
@@ -1147,7 +1148,7 @@
                     "[Gold] cost of purchasing [All] buildings [-50]%"
                 ],
                 "row": 2,
-                "column": 2
+                "column": 1
             },
             {
                 "name": "Academy of Sciences",
@@ -1157,7 +1158,7 @@
                     "[+1 Happiness] from every [Research Lab]"
                 ],
                 "row": 2,
-                "column": 4
+                "column": 3
             },
             {
                 "name": "Workers Faculties",
@@ -1166,7 +1167,7 @@
                     "[+100]% Production when constructing [Factory] buildings [in all cities]"
                 ],
                 "row": 2,
-                "column": 6
+                "column": 5
             },
             {
                 "name": "Five-Year Plan",
@@ -1225,7 +1226,7 @@
         "[-50]% Unhappiness from [Population] [in all cities]",
 		"Provides [1] [Policies]"
         ],
-        "row": 3,
+        "row": 2,
         "column": 7
     },
 		{
@@ -1234,7 +1235,7 @@
 			"[+10]% [Culture] [in capital] <while the empire is happy>",
                     "[+2 Food] [in capital]","[-5 Food] [in all cities]","Provides [1] [Policies]"
                 ],
-                "row": 3,
+                "row": 2,
                 "column": 9
             },
             {
@@ -1270,15 +1271,6 @@
 	],
 		"policies": [
             {
-                "name": "Creative Expression",
-                "uniques": [
-                    "[+2 Culture] from every [Dye]",
-                    "[-50]% Unhappiness from [Specialists] [in all cities]","[+100]% Yield from every [Great Improvement]"
-                ],
-                "row": 1,
-                "column": 1
-            },
-            {
                 "name": "Mobilization",
                 "uniques": [
                     "[Gold] cost of purchasing [All] units [-25]%",
@@ -1293,8 +1285,8 @@
 		"[+20]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>","[Faith] cost of purchasing [Inquisitor] units [-80]%",
 		"Provides [1] [Policies]"
             ],
-            "row": 2,
-            "column": 5
+            "row": 1,
+            "column": 1
         },
     {
         "name": "Dictatorship of the Proletariat",
@@ -1310,7 +1302,7 @@
                     "[+10]% [Culture] [in all cities] <while the empire is happy>",
                     "Empire enters golden age"
                 ],
-                "row": 35
+                "row": 3,
                 "column": 6
             },
             {
