@@ -1280,7 +1280,7 @@
                 "column": 4
             },
 	{
-            "name": "Radicalism",
+            "name": "Absolutism",
             "uniques": [
 		"[+20]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>","[Faith] cost of purchasing [Inquisitor] units [-80]%",
 		"Provides [1] [Policies]"
