@@ -704,7 +704,7 @@
                     "[+2 Production, +2 Science] from every [Factory]"
                 ],
                 "row": 2,
-                "column": 2
+                "column": 1
             },
             {
                 "name": "Capitalism",
@@ -889,7 +889,7 @@
 			"Comment [BLITZKRIEG!!!]"
                 ],
                 "row": 2,
-                "column": 2
+                "column": 3
             },
             {
 				"name": "Elite Forces",
@@ -1244,6 +1244,37 @@
                 ],
                 "row": 3,
                 "column": 9
+            },
+{
+        "name": "Planned Economy",
+        "uniques": [
+            "[+100]% unhappiness from the number of cities",
+        "[-50]% Unhappiness from [Population] [in all cities]",
+		"Provides [1] [Policies]"
+        ],
+        "row": 3,
+        "column": 11
+    },
+    {
+        "name": "Scorched Earth",
+        "uniques": [
+            "[-100]% maintenance costs <for [Mounted] units>",
+        "[-100]% maintenance costs <for [Armor] units>",
+        "[Mounted] units gain the [Volley] promotion",
+        "[Armor] units gain the [Volley] promotion",
+	    "Provides [1] [Policies]"
+        ],
+        "row": 3,
+        "column": 13
+    },
+		{
+                "name": "Socialism",
+                "uniques": [
+			"[+10]% [Culture] [in capital] <while the empire is happy>",
+                    "[+2 Food] [in capital]","[-5 Food] [in all cities]","Provides [1] [Policies]"
+                ],
+                "row": 3,
+                "column": 15
             },
             {
                 "name": "Ideology Complete",
