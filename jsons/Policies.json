@@ -981,10 +981,13 @@
                 "column": 2
             },
             {
-                "name": "Their Finest Hour",
-                "uniques": [
-                    "[+15]% Strength <for [Military] units>","[+44]% Strength for cities <when defending>"
+                "name": "Covert Action",
+		    "uniques": [
+                    "[+100]% spy effectiveness [City-States]",
+                    //Unique for rigging elections
+                    "Gain an extra spy"
                 ],
+                "requires": ["Diplomatic Missions"],
                 "row": 3,
                 "column": 4
             },
@@ -1048,15 +1051,6 @@
 				"row": 3,
 				"column": 2
 			},
-            {
-                "name": "Creative Expression",
-                "uniques": [
-                    "[+2 Culture] from every [Dye]",
-                    "[-50]% Unhappiness from [Specialists] [in all cities]","[+100]% Yield from every [Great Improvement]"
-                ],
-                "row": 3,
-                "column": 4
-            },
             {
                 "name": "Free Mind",
                 "uniques": [
@@ -1185,17 +1179,6 @@
                 "column": 3
             },
             {
-                "name": "Iron Curtain",
-                "uniques": [
-                    "[+11 Production] from every [Land Trade Route (Production)]",
-                    "[+11 Food] from every [Land Trade Route (Food)]",
-                    "[+11 Food] from every [Sea Trade Route (Food)]",
-                    "[+11 Production] from every [Sea Trade Route (Production)]","Provides [1] [Policies]"
-                ],
-                "row": 3,
-                "column": 5
-            },
-            {
                 "name": "People's Army",
                 "uniques": [
                     "[+100]% Production when constructing [Military Academy] buildings [in all cities]",
@@ -1216,16 +1199,6 @@
                 "row": 3,
                 "column": 9
             },
-{
-        "name": "Planned Economy",
-        "uniques": [
-            "[+100]% unhappiness from the number of cities",
-        "[-50]% Unhappiness from [Population] [in all cities]",
-		"Provides [1] [Policies]"
-        ],
-        "row": 2,
-        "column": 7
-    },
 		{
                 "name": "Socialism",
                 "uniques": [
