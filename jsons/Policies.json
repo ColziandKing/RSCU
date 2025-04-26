@@ -539,7 +539,7 @@
                     "Free [Great Admiral] appears",
                     "[+1] Happiness from each type of luxury resource",
 			"[+3 Culture] from every [Governor's Mansion]",
-                    "May buy [Great Admiral] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+                    "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
             }
         ]
@@ -634,14 +634,14 @@
                 "name": "Constitution",
                 "uniques": ["[+2 Culture] per [1] social policies adopted"],
                 "row": 1,
-                "column": 3
+                "column": 2
             },
             {
                 "name": "Universal Suffrage",
                 "uniques": ["[-50]% Food consumption by specialists [in all cities]"],
 		"requires": ["Constitution", "Civil Society"],
                 "row": 2,
-                "column": 5
+                "column": 6
             },
             {
                 "name": "Civil Society",
@@ -649,14 +649,14 @@
                     "[+1 Happiness] per [1] social policies adopted"
                 ],
                 "row": 1,
-                "column": 5
+                "column": 6
             },
             {
                 "name": "Free Speech",
                 "uniques": ["[+1 Culture] per [4] population [in all cities]"],
                 "requires": ["Constitution"],
                 "row": 2,
-                "column": 3
+                "column": 4
             },
             {
                 "name": "Democracy",
@@ -673,7 +673,7 @@
                     "[+25]% Great Person generation [in all cities]"
                 ],
                 "row": 1,
-                "column": 1
+                "column": 2
             },
             {
                 "name": "Arsenal of Democracy",
@@ -685,7 +685,7 @@
                     "All newly-trained [Fighter] units [in all cities] receive the [Dogfighting I] promotion","Provides [1] [Policies]"
                 ],
                 "row": 2,
-                "column": 1
+                "column": 2
             },
 		{
                 "name": "New Deal",
@@ -708,7 +708,14 @@
                 ],
                 "row": 3,
                 "column": 3
-            },
+            },{
+            "name": "Their Finest Hour",
+            "uniques": [
+                "[+15]% Strength <for [Military] units>","[+44]% Strength for cities <when defending>"
+            ],
+            "row": 3,
+            "column": 7
+        },
             {
                 "name": "Freedom Complete",
                 "uniques": [
@@ -750,6 +757,17 @@
                 "column": 5
             },
             {
+                "name": "Iron Fist",
+                "uniques": [
+                    "Earn [100]% of killed [Military] unit's [Strength] as [Culture]",
+                    "Earn [100]% of killed [Military] unit's [Strength] as [Science]",
+                    "Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
+                    "[+50]% XP gained from combat <for [non-[Air]] units>","Provides [1] [Policies]"
+                ],
+                "row": 1,
+                "column": 7
+            },
+            {
                 "name": "Autarky",
                 "uniques": [
                     "Quantity of strategic resources produced by the empire +[50]%",
@@ -757,7 +775,7 @@
                 ],
                 "requires": ["Populism", "Militarism"],
                 "row": 2,
-                "column": 1
+                "column": 2
             },
             {
                 "name": "Police State",
@@ -766,14 +784,14 @@
                 ],
                 "requires": ["Militarism"],
                 "row": 2,
-                "column": 5
+                "column": 6
             },
             {
                 "name": "Total War",
                 "uniques": ["[+33]% Strength <for [Military] units> <when attacking>", "[+15]% Production when constructing [Military] units [in all cities]"],
                 "requires": ["Autarky", "Police State"],
                 "row": 3,
-                "column": 3
+                "column": 4
             },
             {
                 "name": "Fascism",
@@ -789,7 +807,7 @@
                     "[+100]% spy effectiveness [in all cities]"
                 ],
                 "row": 2,
-                "column": 3
+                "column": 4
             },
             {
                 "name": "Third Alternative",
@@ -803,7 +821,7 @@
                     "[+5 Science, +5 Food] [in capital]"
                 ],
                 "row": 3,
-                "column": 5
+                "column": 6
             },
             {
                 "name": "Cult of Personality",
@@ -811,7 +829,7 @@
                     "[+20]% [Culture] [in all cities]","Provides [1] [Policies]"
                 ],
                 "row": 3,
-                "column": 1
+                "column": 2
             },
             {
                 "name": "Nationalism Complete",
@@ -894,7 +912,7 @@
                 "name": "Internationalism Complete",
                 "uniques": [
 		     "[+100]% Golden Age length",
-                    "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+                    "May buy [Diplomat] units for [500] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
             }
         ]
@@ -980,7 +998,7 @@
                     "[+2 Food, +2 Gold, +1 Production, +1 Science] [in all cities]"
                 ],
                 "row": 1,
-                "column": 1
+                "column": 2
             },
             {
                 "name": "Patriotic War",
@@ -989,7 +1007,7 @@
                     "[+50]% XP gained from combat <for [non-[Air]] units>"
                 ],
                 "row": 1,
-                "column": 3
+                "column": 4
             },
             {
                 "name": "Double Agents",
@@ -998,7 +1016,7 @@
                     //Unique for increasing chance of killing spy
                 ],
                 "row": 1,
-                "column": 5
+                "column": 6
             },
             {
                 "name": "Skyscrapers",
@@ -1027,13 +1045,23 @@
                 "row": 2,
                 "column": 5
             },
+        {
+            "name": "Five-Year Plan",
+            "uniques": [
+                "[+2 Production] [in all cities]",
+                "[+1 Production] from every [Mine]",
+                "[+1 Production] from every [Quarry]",
+            ],
+            "row": 2,
+            "column": 7
+        },
             {
                 "name": "Communism",
                 "uniques": [
                     "[+10]% [Science] [in all cities]","Provides [1] [Policies]"
                 ],
                 "row": 3,
-                "column": 3
+                "column": 2
             },
 		{
                 "name": "Socialism",
@@ -1042,16 +1070,15 @@
                     "[+2 Food] [in capital]","[-5 Food] [in all cities]","Provides [1] [Policies]"
                 ],
                 "row": 3,
-                "column": 1
+                "column": 6
             },
             {
                 "name": "Cultural Revolution",
                 "uniques": [
                     "[+10]% [Culture] [in all cities] <while the empire is happy>",
-                    "Empire enters golden age"
                 ],
                 "row": 3,
-                "column": 5
+                "column": 4
             },
             {
                 "name": "Ideology Complete",
