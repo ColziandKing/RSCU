@@ -221,7 +221,7 @@ BuildingIcons/Quantum Computer
   orig: 100, 100
   offset: 0, 0
   index: -1
-PolicyBranchIcons/Individualism
+PolicyBranchIcons/Aesthetics 
   rotate: false
   xy: 1108, 400
   size: 100, 100
@@ -291,7 +291,7 @@ BuildingIcons/Cloning Lab
   orig: 100, 100
   offset: 0, 0
   index: -1
-PolicyBranchIcons/International
+PolicyBranchIcons/Internationalism
   rotate: false
   xy: 1340, 400
   size: 100, 100
