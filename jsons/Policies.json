@@ -784,45 +784,13 @@
                 "column": 3
             },
             {
-                "name": "Futurism",
-                "uniques": [
-                    "Gain [250] [Culture] <(modified by game speed)> <upon gaining a [Great Artist] unit>",
-                    "Gain [250] [Culture] <(modified by game speed)> <upon gaining a [Great Writer] unit>",
-                    "Gain [250] [Culture] <(modified by game speed)> <upon gaining a [Great Musician] unit>"
-                ],
-                "row": 1,
-                "column": 7
-            },
-            {
                 "name": "Industrial Espionage",
                 "uniques": [
                     "[+100]% spy effectiveness [in all cities]"
                 ],
-                "row": 1,
-                "column": 9
-            },
-            {
-                "name": "Lightning Warfare",
-                "uniques": [
-                    "[+1] Movement <for [Gunpowder] units>",
-                    "[+1] Movement <for [Armored] units>",
-                    "[+1] Movement <for [Great General] units>",
-                    "[+1] Movement <for [Worker] units>",
-			"Comment [BLITZKRIEG!!!]"
-                ],
                 "row": 2,
                 "column": 3
             },
-            {
-				"name": "Elite Forces",
-				"uniques": [
-					"[+10]% Strength <for [Military] units>",
-			"[+1 Food, +2 Science, +2 Culture] from every [Citadel]",
-                    "[+10] HP when healing <for [Military] units>"
-				],
-				"row": 2,
-				"column": 7
-			},
             {
                 "name": "Third Alternative",
                 "uniques": [
@@ -834,8 +802,8 @@
                     "Double quantity of [Uranium] produced",
                     "[+5 Science, +5 Food] [in capital]"
                 ],
-                "row": 2,
-                "column": 9
+                "row": 3,
+                "column": 5
             },
             {
                 "name": "Cult of Personality",
@@ -844,25 +812,6 @@
                 ],
                 "row": 3,
                 "column": 1
-            },
-            {
-                "name": "Iron Fist",
-                "uniques": [
-                    "Earn [100]% of killed [Military] unit's [Strength] as [Culture]",
-                    "Earn [100]% of killed [Military] unit's [Strength] as [Science]",
-                    "Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
-                    "[+50]% XP gained from combat <for [non-[Air]] units>","Provides [1] [Policies]"
-                ],
-                "row": 3,
-                "column": 7
-            },
-            {
-                "name": "Clausewitz's Legacy",
-                "uniques": [
-                    "[+25]% Strength <for [All] units> <for [50] turns>","Provides [1] [Policies]"
-                ],
-                "row": 3,
-                "column": 9
             },
             {
                 "name": "Nationalism Complete",
@@ -996,8 +945,6 @@
                 "name": "Free Mind",
                 "uniques": [
                     "[Great Artist] is earned [33]% faster",
-                    "[Great Writer] is earned [33]% faster",
-                    "[Great Musician] is earned [33]% faster",
                     "[+20]% [Gold] <in cities with a [Zoo]>",
                     "[+20]% [Gold] <in cities with a [Museum]>",
                     "[+20]% [Gold] <in cities with a [Broadcast Tower]>"
@@ -1054,18 +1001,6 @@
                 "column": 5
             },
             {
-                "name": "Young Pioneers",
-                "uniques": [
-                    "[+1 Happiness] from every [Workshop]",
-                    "[+1 Happiness] from every [Factory]",
-                    "[+1 Happiness] from every [Solar Plant]",
-                    "[+1 Happiness] from every [Nuclear Plant]",
-                    "[+1 Happiness] from every [Hydro Plant]"
-                ],
-                "row": 1,
-                "column": 9
-            },
-            {
                 "name": "Skyscrapers",
                 "uniques": [
                     "[Gold] cost of purchasing [All] buildings [-50]%"
@@ -1106,8 +1041,8 @@
 			"[+10]% [Culture] [in capital] <while the empire is happy>",
                     "[+2 Food] [in capital]","[-5 Food] [in all cities]","Provides [1] [Policies]"
                 ],
-                "row": 2,
-                "column": 9
+                "row": 3,
+                "column": 1
             },
             {
                 "name": "Cultural Revolution",
@@ -1116,7 +1051,7 @@
                     "Empire enters golden age"
                 ],
                 "row": 3,
-                "column": 11
+                "column": 5
             },
             {
                 "name": "Ideology Complete",
