@@ -673,7 +673,7 @@
                     "[+25]% Great Person generation [in all cities]"
                 ],
                 "row": 1,
-                "column": 2
+                "column": 4
             },
             {
                 "name": "Arsenal of Democracy",
@@ -950,7 +950,7 @@
 				"uniques": ["Free [Great Artist] appears"],
 				"requires": ["Fine Arts"],
 				"row": 2,
-				"column": 5
+				"column": 6
 			},
 			{
 				"name": "Cultural Exchange",
