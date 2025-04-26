@@ -1,5 +1,5 @@
 
-game (1).png
+game (2).png
 size: 2048, 1024
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
@@ -1285,7 +1285,7 @@ BuildingIcons/CERN
   offset: 0, 0
   index: -1
 
-game2.png
+game2 (1).png
 size: 2048, 1024
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
