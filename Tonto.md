@@ -77,16 +77,6 @@ tobto
                 "column": 9
             },
             {
-                "name": "Five-Year Plan",
-                "uniques": [
-                    "[+2 Production] [in all cities]",
-                    "[+1 Production] from every [Mine]",
-                    "[+1 Production] from every [Quarry]","Provides [1] [Policies]"
-                ],
-                "row": 3,
-                "column": 1
-            },
-            {
                 "name": "People's Army",
                 "uniques": [
                     "[+100]% Production when constructing [Military Academy] buildings [in all cities]",
@@ -115,35 +105,4 @@ tobto
                 ],
                 "row": 1,
                 "column": 3
-            },
-            {
-                "name": "Five-Year Plan",
-                "uniques": [
-                    "[+2 Production] [in all cities]",
-                    "[+1 Production] from every [Mine]",
-                    "[+1 Production] from every [Quarry]","Provides [1] [Policies]"
-                ],
-                "row": 3,
-                "column": 1
-            },
-            {
-                "name": "People's Army",
-                "uniques": [
-                    "[+100]% Production when constructing [Military Academy] buildings [in all cities]",
-                    "[+100]% Production when constructing [Armory] buildings [in all cities]",
-                    "[+2 Science, +2 Culture] from every [Military Academy]",
-                    "[+2 Science, +2 Culture] from every [Armory]","Provides [1] [Policies]"
-                ],
-                "row": 3,
-                "column": 7
-            },
-            {
-                "name": "Spaceflight Pioneers",
-                "uniques": [
-                    "Free [Great Scientist] appears",
-                    "Free [Great Engineer] appears","Provides [1] [Policies]",
-                    //need implement "Spaceflight Pioneers: May finish Spaceship parts with Great Engineers"
-                ],
-                "row": 3,
-                "column": 9
             },
